@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(
+        90deg,
+        rgb(197, 191, 191) 25%,
+        rgb(247, 242, 242) 73%);
+}
+
+/*ENCABEZADO*/
+
+
+.encabezado header{
+    background-color: rgb(227, 230, 55);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+.encabezado .nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+
+.encabezado .nav.active{
+    background-color: rgb(238, 241, 35);
+    padding: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.encabezado .nav.active .logo,
+.encabezado .nav.active a {
+    color: black;
+}
+
+.encabezado .logo{
+    font-size: 25px;
+    color: rgb(252, 255, 81);
+    font-weight: 100px;
+    padding-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.encabezado .menu {
+    display: flex;
+}
+
+.encabezado .menu li{
+    list-style: none;
+    margin: 10px;
+}
+
+.encabezado .menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.encabezado .menu li a:hover{
+    padding: 5px 10px;
+    background: linear-gradient(
+        90deg,
+        rgb(0, 185, 170) 25%,
+        rgb(0, 255, 213) 73%);
+    color: black;
+    border-radius: 15px;
+}
+
+
+
+.encabezado .Motos {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 250px;
+    color: rgb(0, 0, 0);
+}
+
+.encabezado .Motos h2{
+    color: rgb(139, 121, 16);
+}
+
+/*ENCABEZADO*/
+
+/*CONTENIDO*/
+
+
+h1 {
+    font-family:'Times New Roman', Times, serif;      
+}
+.Resumen{
+    background-color: rgb(252, 255, 81);
+    text-align: center;
+    margin: 10px 150px 10px 150px;
+}
+
+.Resumen h1{
+    background-color: rgb(253, 255, 155);
+    font-size: 350%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.Resumen h2{
+    padding: 20px 120px 20px 120px;
+}
+
+.sep{
+    display: flex;
+}
+
+.Introduccion{
+    background-color: rgb(225, 228, 64);
+    text-align: center;
+    margin: 10px 40px 10px 40px;
+}
+
+.Introduccion h2{
+    padding: 20px 250px 20px 250px;
+}
+
+.Introduccion h1{
+    background-color: rgb(253, 255, 155);
+    font-size: 350%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.Objetivos{
+    background-color: rgb(220, 223, 52);
+    margin: 10px 40px 10px 40px;
+}
+
+.Objetivos h1{
+    background-color: rgb(253, 255, 155);
+    font-size: 350%;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.Objetivos h3{
+    font-size: 200%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.Objetivos .sep2{
+    padding-top: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 35px;
+}
+
+.Metodologias{
+    background-color: rgb(213, 216, 29);
+    margin: 10px 40px 10px 40px;
+}
+
+.Metodologias h1{
+    background-color: #fdff76;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.Metodologias h2{
+    text-align: center;
+    padding: 0px 280px 0px 280px;
+}
+
+.Metodologias h3{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.sep3{
+    padding-left: 95px;
+    background-color: rgb(88, 61, 3);
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Requisitos{
+    background-color: rgb(214, 218, 18);
+    margin: 10px 40px 10px 40px;
+}
+
+.Requisitos h1{
+    background-color: #fdff76;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.Requisitos h2{
+    padding: 10px 100px 10px 100px;
+    font-size: 90%;
+}
+
+.Requisitos .sep3{
+    padding-left: 70px;
+    background-color: rgb(88, 61, 3);
+    color: aliceblue;
+}
+
+.Datos{
+    display: flex;
+}
+
+.Datos h1{
+    background-color: #fdff76;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);    
+}
+
+.Especificaciones{
+    margin: 10px 40px 10px 40px;
+    background-color: rgb(204, 207, 6);
+}
+
+
+.Diagrama {
+    margin: 10px 40px 10px 55px; 
+    background-color: rgb(204, 207, 6);
+    border: #000000;
+}
+
+.Interfaz{
+    background-color: rgb(197, 201, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.Interfaz h1{
+    background-color: #fdff76;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.Interfaz h2{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Interfaz h3{
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Interfaz img{
+    margin-left: 300px;
+}
+
+.Niveles{
+    background-color: rgb(214, 218, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.Niveles h1{
+    background-color: #fdff76;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.Niveles h2{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Niveles h3{
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Ciclo{
+    background-color: rgb(221, 224, 7);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.Ciclo h1{
+    background-color: #fdff76;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);    
+}
+
+.Ciclo h2{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Ciclo h3{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Manual{
+    background-color: rgb(238, 241, 16);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.Manual h1{
+    background-color: #fdff76;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);    
+}
+
+.Manual h2{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Manual h3{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Manual img{
+    margin-left: 300px;
+}
+
+
+.Politicas{
+    background-color: rgb(0, 0, 0);
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.Politicas h1{ 
+    background-color: #fdff76;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+    color: black;
+}
+
+.Politicas h2{
+    padding-left: 150px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

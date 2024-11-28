@@ -1,1 +1,375 @@
-<h1>Proyecto final</h1> 
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mariano Rubelt Motos | Politica de Seguridad</title>
+        <link rel="icon" href="images/logo.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="encabezado">
+            <header>
+                <nav class="nav">
+                    <div class="logo">Mariano Rubelts Motos</div>
+                </nav>
+
+                <div class="Motos">
+                    <h1>Políticas de seguridad</h1>
+                    <h2>De Mariano Rubelt Motos</H2>
+                </div>
+
+            </header>
+        </div>
+
+        <div class="block">
+        <div class="Resumen">
+        <h1>Resumen</h1>
+        <h2>“Mariano Rubelt Motos” es un micro emprendimiento familiar, este se dedica a la
+            venta de repuestos para motocicleta. Con veintidós años de experiencia en el rubro,
+            consta con dos sucursales en distintas localidades, siendo su sede central y
+            principal la sucursal que se encuentra en Libertador General San Martin.
+            Para dicha pyme se le fue realizado un sistema web para que sus empleados y
+            dueños tengan un mejor control de stock, precios, materiales, datos de los
+            empleados y datos de los propietarios. A lo largo del este archivo se describen y
+            explican principalmente sus políticas de seguridad, su diseño y se adjuntan un
+            manual de uso. Se especifican las metodologías y herramientas utilizadas para su
+            posterior desarrollo. Los requisitos para el sistema (los datos) son narrados.
+            Se adjuntará un diagrama de contexto y un diagrama de flujo de datos. Se explican
+            los niveles de usuario y el ciclo de vida utilizado para el desarrollo del sitio web. </h2>
+        </div>
+        </div>
+
+
+            <div class="Introduccion">
+                <h1>Introducción</h1>
+                <h2>Se desarrolló una página web para el emprendimiento “Mariano Rubelt Motos”, una
+                    empresa dedicada a la venta de repuesto para motos. Este proyecto tuvo como
+                    objetivo principal fortalecer la presencia digital del negocio, mejorando su visibilidad
+                    y accesibilidad para sus dueños y empleados.
+                    La página web fue diseñada y construida teniendo en cuenta tanto las necesidades
+                    específicas del emprendimiento como las mejores prácticas en desarrollo web.
+                    Entre las funcionalidades implementadas se destacan: control de stock de
+                    productos, control de ventas, control de empleados, control de finanzas, ingresos y
+                    egresos de dinero.
+                    El presente documento detalla las etapas del desarrollo del sitio web, incluyendo el
+                    análisis de requerimientos, diseño de interfaz, implementación técnica y pruebas
+                    finales. Asimismo, se reflexiona sobre los desafíos enfrentados y los aprendizajes
+                    adquiridos durante el proceso, destacando el impacto positivo que este proyecto
+                    tiene para el crecimiento del emprendimiento en un mercado altamente competitivo.</h2>
+            </div>
+            
+            <div class="Objetivos">
+                <h1>Objetivos</h1>
+                <div class="sep2">
+                    <h3> Mayor control del stock.</h3>
+                    <h3> Mejor control del precio de los productos</h3>
+                    <h3> Productos faltantes.</h3>
+                    <h3> Control de empleados.</h3>
+                    <h3> Control de impuestos a pagar</h3>
+                    <h3> Control salarial de los empleados.</h3>
+                    <h3> Datos de los empleados existentes.</h3>
+                    <h3> Datos de los propietarios.</h3>
+                    <h3> Ingresos de dinero del mes.</h3>
+                    <h3> Egresos de dinero mes.</h3>
+                </div>
+            </div>
+
+
+        <div class="sep">
+            <div class="Metodologias">
+                <h1>Metodologías y Herramientas</h1>
+                <h2>Metodología</h2>
+                <h3>La metodología implementada en este proyecto fue kanban; es un sistema visual
+                    diseñado para optimizar el flujo de trabajo, reducir cuellos de botella y aumentar la
+                    eficiencia. Se basa en principios simples que permiten a los equipos organizar,
+                    priorizar y realizar tareas de manera continua.
+                    Fue elegida debido a sus beneficios:
+                </h3>
+                <div class="sep3">
+                    <h3> MAYOR VISIBILIDAD: del estado de las tareas.
+                    </h3>
+                    <h3> Facilita la PRIORIZACIÓN y asignación de recursos</h3>
+                    <h3> Mejora la COLABORACIÓN entre los equipos.
+                    </h3>
+                    <h3> Permite una ENTREGA CONTINUA de resultados, ideal para proyectos con
+                        requisitos cambiantes.
+                </h3>
+                </div>
+
+                <h2>Herramientas</h2>
+                <h3>Las herramientas utilizadas para la realización del proyecto fueron:
+                </h3>
+                <div class="sep3">
+                    <h3> Visual studio code.</h3>
+                    <h3> HTML.</h3>
+                    <h3> PHP.</h3>
+                    <h3> CSS.</h3>
+                    <h3> Xampp.</h3>
+                    <h3> Mysql.</h3>
+                </div>
+            </div>
+
+
+            <div class="Requisitos">
+                <h1>Requisitos del sistema.</h1>
+                <h2>Los requisitos para la correcta realización del sistema fueron brindados por el cliente
+                    de una manera clara y concisa. Sus requisitos fueron:
+                </h2>
+                <div class="sep3">
+                    <h2> El sistema debía tener un login para su acceso por tarde del cliente y de sus
+                        empleados
+                    </h2>
+                    <h2> La presentación debía ser el logo de su negocio.
+                    </h2>
+                    <h2> El menú de opciones debía contener, para el administrador la opción
+                        “Empleados”, “Productos”, “Ingresos Mensuales”, “Egresos Mensuales”,
+                        “Impuestos” y “Faltantes. En la parte de empleados debía contener la
+                        información personal de los empleados y su sueldo; en ingresos mensuales
+                        se debe mostrar la cantidad de dinero que ingreso en el mes; en egresos
+                        mensuales se muestra en que fue gastado el dinero que ingreso en el mes;
+                        en impuestos muestra justamente los impuestos a pagar en el mes y el dinero
+                        destinado para este gasto; en productos se muestra el nombre del producto,
+                        la cantidad en stock y su precio; y por último en faltantes contiene los
+                        productos que están en falta. Para la parte del login que corresponde a los
+                        empleados el menú de opciones solo debe mostrar “Productos” y “Faltantes”.
+                    </h2>
+                    <h2> Los colores debían ser el negro y el amarillo</h2>
+                    <h2> Debía adaptarse a cualquier dispositivo.</h2>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="Datos">
+            <div class="Especificaciones">
+                <h1>Especificaciones</h1>
+                <img src="images/Contexto.png" alt="" width="700" height="600">
+            </div>
+
+            <div class="Diagrama">
+                <h1>Diagrama de Flujo de Datos</h1>
+                <img src="images/Diagrama.png" alt="" width="700" height="600">
+            </div>
+        </div>
+
+        <div class="Interfaz">
+            <h1>Interfaz del Sistema.</h1>
+            <h2>La interfaz del sistema en un sitio web es el punto de contacto o conexión entre el
+                sistema web y otros componentes externos, ya sean usuarios, aplicaciones o
+                servicios. Se refiere a como el sitio interactúa y se comunica con el entorno, ya sea
+                a través de interfaces gráficas para los usuarios finales o interfaces técnicas.
+            </h2>
+            <h2> Presentación:</h2>
+            <h3>Es la cara del sistema y se ve de la siguiente manera:</h3>
+            <img src="images/Presentacion.png" alt="" width="1000" height="600">
+            <h2> Login:</h2>
+            <h3>En el login los usuarios ingresan al sistema web. Dependiendo del nivel es
+                cómo será el uso del sistema. También tiene una opción de por si el usuario
+                olvida la contraseña, la cual le permite poder recuperar la contraseña. 
+            </h3>
+            <img src="images/Login.png" alt="" width="1000" height="600">
+            <h2>Menú de opciones:
+            </h2>
+            <h3>Dependiendo del nivel de usuario es como se verá el menú. Si el usuario es
+                de nivel superior se vera de la siguiente manera:
+            </h3>
+            <img src="images/Opciones.png" alt="" width="1000" height="600">
+            <h3>Mientras que si el usuario es de un nivel inferior el menú de opciones se verá asi:
+            </h3>
+            <img src="images/Opciones2.png" alt="" width="1000" height="600">
+            <h3>Estas restricciones que tiene el nivel inferior fueron pedidas por el cliente.</h3>
+            <h2> Opción “Empleado”:
+            </h2>
+            <h3>Aquí el cliente que tiene un nivel superior puede cargar, modificar, ver o
+                eliminar los datos de los empleados. Se hace visible en esta opción los datos
+                personales de los empleados tales como nombre y apellido, DNI y el salario.
+            </h3>
+            <img src="images/Empleado.png" alt="" width="1000" height="600">
+            <h2> Opción “Producto”:
+            </h2>
+            <h3>Esta sección contiene los productos, el stock de los mismo y su precio. Se
+                puede modificar, agregar o eliminar productos. A esta sección tienen acceso
+                tanto los niveles superiores y los inferiores.
+            </h3>
+            <img src="images/Empleados.png" alt="" width="1000" height="600">
+            <h2> Opción “Ingreso Mensual”:
+            </h2>
+            <h3>Aquí los usuarios de nivel superior ven los ingresos de dinero que tienen en
+                el mes, de donde provienen dichos ingresos y el total acumulado.
+            </h3>
+            <img src="images/Ingresos.png" alt="" width="1000" height="600">
+            <h2> Opción “Egresos Mensuales”:</h2>
+            <h3>Aquí se aprecian los gastos imprevistos que se pueden llegar a tener, se
+                hace visible en que se gasta el dinero y muestra un total acumulado de
+                pérdidas.
+            </h3>
+            <img src="images/Egresos.png" alt="" width="1000" height="600">
+            <h2> Opción “Impuesto”:
+            </h2>
+            <h3>En esta sección se muestran los impuestos a pagar y el total de cada uno.
+                Se calcula el monto aproximado de lo que se gastara en impuestos cada
+                mes.
+            </h3>
+            <img src="images/Impuestos.png" alt="" width="1000" height="600">
+            <h2> Opción “Faltantes”:</h2>
+            <h3>Aquí se puede apreciar todos los productos que faltan y que se deben de
+                reponer para su posterior venta. 
+            </h3>
+            <img src="images/Faltantes.png" alt="" width="1000" height="600">
+        </div>
+
+        <div class="Niveles">
+            <h1>Niveles de Usuario</h1>
+            <h2>En un sistema web, los niveles de usuario se refieren a las diferentes categorías o
+                roles que determinan los permisos y accesos que tiene cada usuario, en el sistema
+                web hecho para “Mariano Rubelt Motos” los niveles de usuarios que se utilizaron
+                fueron:
+            </h2>
+            <h2>Roles:</h2>
+            <h3> Propietario: gestiona todas las actividades que se pueden realizar en el
+                sistema.
+            </h3>
+            <h3> Empleados: accede solamente a dos funciones básicas, determinadas por
+                el dueño del emprendimiento.  
+            </h3>
+            <h2>Permisos de cada rol:</h2>
+            <h3> Propietario: accede a todas las funciones del sistema, empleados,
+                productos, ingresos mensuales, egresos mensuales, faltantes e impuestos.
+            </h3>
+            <h3> Empleados: accede únicamente a las funciones productos y faltantes.
+            </h3>
+        </div>
+
+        <div class="Ciclo">
+            <h1>Ciclo de Vida</h1>
+            <h2>El ciclo de vida utilizado para el desarrollo del sistema web fue el ciclo de vida
+                prototipado, es una metodología de desarrollo de software que se centra en crear
+                prototipos antes de desarrollar el producto final. A continuación de contamos como
+                lo implementamos:
+            </h2>
+
+            <h3>Etapas:</h3>
+            <h3>1. IDENTIFICACIÓN DE REQUISITOS INICIALES: se le realizó una entrevista al cliente
+                para saber bien sus requisitos. 
+            </h3>
+            <h3>2. DISEÑO RÁPIDO: se realizó un diseño preliminar para saber cuáles son los
+                gustos del cliente
+            </h3>
+            <h3>3. CREACIÓN DEL PROTOTIPO: se desarrolló un prototipo básico</h3>
+            <h3>4. EVOLUCIÓN DEL PROTOTIPO POR EL USUARIO: el cliente prueba el prototipo para
+                identificar los problemas que puede llegar a tener y aclara sus requisitos.
+            </h3>
+            <h3>5. REFINAMIENTO DEL PROTOTIPO: se mejora el prototipo y se lo actualiza.</h3>
+            <h3>6. DESARROLLO DEL SISTEMA FINAL: una vez que el prototipo cumple con todos
+                los requisitos, se comienza a desarrollar el sistema final. En esta etapa se
+                optimizar el código y se asegura la calidad del software.
+            </h3>
+            <h3>7. IMPLEMENTACIÓN Y MANTENIMIENTO: se despliega el sistema final y comienza
+                a utilizarse. De ser necesario se le realiza un mantenimiento.
+            </h3>
+
+            <h2>Las ventajas que tuvimos al utilizar este ciclo de vida fueron</h2>
+            <h3> CLARIDAD EN LOS REQUISITOS: el cliente al visualizar antes de llegar al fin del
+                sistema ayudo a pulir los detalles
+            </h3>
+            <h3> MAYOR SATISFACCIÓN DEL CLIENTE: los ajustes se realizaron a tiempo según
+                las expectativas que tenía el cliente.  
+            </h3>
+            <h3> REDUCCIÓN DE RIEGOS: identificar los problemas antes de la construcción del
+                sistema ayudo a evitar riegos.
+            </h3>
+            <h3> DESARROLLO INTERACTIVO: facilito la mejora continua.</h3>
+
+            <h2>Las desventajas que se presentaron fueron:
+            </h2>
+            <h3> EXPECTATIVAS IRREALES: el cliente confundió el prototipo con el producto final.</h3>
+            <h3> INCREMENTO EN EL TIEMPO Y COSTO: las reuniones con el cliente extendieron el
+                plazo de entrega. 
+            </h3>
+            <h3> FALTA DE DOCUMENTACIÓN: el cliente no proporciono todos los datos de los
+                empleados; proporciono mal la información de los productos que tiene en
+                venta.  
+            </h3>
+            <h3> ENFOQUE EXCESIVO EN LA INTERFAZ: el cliente priorizo la apariencia del sistema
+                antes que su funcionalidad.
+            </h3>
+        </div>
+
+
+        <div class="Manual">
+            <h1>Manual de Usuario</h1>
+            <h2> PRESENTACIÓN: contiene la opción “Inicio Sesión”, hacemos click;
+            </h2>
+            <img src="images/InicioSesion.png" alt="" width="1000" height="600">
+            <h2> INICIO SESIÓN: luego de hacer click en “Inicio Sesión” nos parecerá un login
+                en el cual pondremos nuestro usuario y la contraseña. En el caso de haber
+                olvidado la contraseña nos aparece la opción “¿Olvidaste tu contraseña?”
+                que nos ayudara a recuperar la contraseña. 
+            </h2>
+            <img src="images/InicioSesion2.png" alt="" width="1000" height="600">
+            <h2> MENÚ DE OPCIONES: al ingresar al sistema web nos aparece un menú de
+                opciones que varía según el nivel de autorización que presenta el usuario,
+                por ejemplo, si ingresa el propietario del negocio a parecerá de la siguiente
+                manera:
+            </h2>
+            <img src="images/MenuOpc.png" alt="" width="1000" height="600">
+            <h2>A diferencia del usuario del empleado que aparece de la siguiente manera: </h2>
+            <img src="images/Opciones2.png" alt="" width="1000" height="600">
+            <h2> EMPLEADOS: en la opción el propietario puede cargar datos de los empleados,
+                modificarlos o eliminar datos cuando lo desea. En esta área aparecen el
+                nombre y apellido de cada empleado, su DNI y el salario que cobra. 
+            </h2>
+            <img src="images/Empleado.png" alt="" width="1000" height="600">
+            <h2> PRODUCTOS: en esta sección se encuentras los productos que hay en stock,
+                su cantidad y su precio. Tanto el propietario del negocio como los empleados
+                pueden hacer uso de esta función cargando, modificando o eliminando
+                productos como lo deseen.
+            </h2>
+            <img src="images/Empleados.png" alt="" width="1000" height="600">
+            <h2> INGRESO MENSUAL: en esta área se muestran los ingresos mensuales y de
+                donde provienen, solamente puede acceder a esta opción el propietario del
+                negocio, este puede cargar más ingresos, modificar o eliminar el ingreso. 
+            </h2>
+            <img src="images/Ingresos.png" alt="" width="1000" height="600">
+            <h2> EGRESO MENSUAL: en esta sección el empleador tiene un registro en lo que
+                gasta se gasta el dinero, este puede también cargar, modificar o eliminar
+                egresos según su deseo
+            </h2>
+            <img src="images/Egresos.png" alt="" width="1000" height="600">
+            <h2> IMPUESTOS: aquí se cargan los impuestos a pagar con sus respectivos
+                montos. Se pueden modificar también o eliminar los impuestos que ya no
+                sean útiles.
+            </h2>
+            <img src="images/Impuestos.png" alt="" width="1000" height="600">
+            <h2> FALTANTES: aquí se cargan todos los productos que faltan en el inventario del
+                negocio. 
+            </h2>
+            <img src="images/Faltantes.png" alt="" width="1000" height="600">
+        </div>
+
+
+        <div class="Politicas">
+            <h1>Políticas de Seguridad</h1>
+            <h2> Los administradores del sitio deberán usar contraseñas seguras y cambiarlas
+                cada 90 días.
+            </h2>
+            <h2> Implementar autentificación multifactor para cuentas administrativas. </h2>
+            <h2> Limitar los intentos de inicio de sesión fallidos para prevenir ataques de
+                fuerza bruta.
+            </h2>
+            <h2> Restringir el acceso al panel de administración a direcciones IP confiables.</h2>
+            <h2> Se cifran todas las comunicaciones utilizando un HTTPS.</h2>
+            <h2> No almacenar datos confidenciales en el servidor del sitio.</h2>
+            <h2> Permitir a los usuarios acceder y eliminar su información personal conforme
+                a la legislación aplicables.
+            </h2>
+            <h2> Implementar una política de privacidad clara en el sitio que detalle el uso de
+                los datos recopilados.
+            </h2>
+        </div>
+        <script src="menu.js"></script>
+    </body>
+</html>
